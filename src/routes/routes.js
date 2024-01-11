@@ -1,4 +1,5 @@
 import App from "../App";
+import Posts from "../pages/posts/Posts";
 const { createBrowserRouter } = require("react-router-dom");
 
 
@@ -9,7 +10,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/posts',
-                element: 'Posts'
+                element: <Posts />
             },
             {
                 path: '/register',
