@@ -1,4 +1,5 @@
 import App from "../App";
+import Login from "../pages/Login";
 import Posts from "../pages/posts/Posts";
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/login',
-                element: 'login'
+                element: <Login/>
             },
         ]
     },
